@@ -51,45 +51,6 @@ Naman-Thumbnail-Portfolio/
 └── vite.config.js
 ```
 
-## 🚀 Run Locally
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/namanagarwal17/thumbnail-designer-portfolio.git
-```
-
-### 2. Open the project directory
-
-```bash
-cd thumbnail-designer-portfolio
-```
-
-### 3. Install dependencies
-
-```bash
-npm install
-```
-
-### 4. Start the development server
-
-```bash
-npm run dev
-```
-
-Open the local URL displayed in your terminal.
-
-## 📦 Build for Production
-
-```bash
-npm run build
-```
-
-To preview the production build:
-
-```bash
-npm run preview
-```
 
 ## 📬 Contact
 
