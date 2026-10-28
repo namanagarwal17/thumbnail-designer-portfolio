@@ -6,7 +6,7 @@ Built to present my thumbnail designing work through a clean interface, smooth a
 
 ## 🌐 Live Preview
 
-**Live Website:** Add your deployed website URL here.
+**Live Website:** https://thumbnail-portfolio-naman.vercel.app/
 
 ## ✨ Features
 
