@@ -6,6 +6,8 @@
 // 2. Add an entry below with id, title, category, and image path.
 // =============================================================
 
+import { title } from "framer-motion/client";
+
 const portfolioData = [
   {
     id: 1,
@@ -55,6 +57,12 @@ const portfolioData = [
     title: "Why Spotify Is In Trouble",
     category: "Tech",
     image: "/images/thumbnails/spotify-is-dead.png",
+  },
+  {
+    id: 21,
+    title: "The Case is not closed Yet!",
+    category: "Documentary",
+    image: "/images/thumbnails/jeffry.png",
   },
   {
     id: 9,
@@ -113,23 +121,66 @@ const portfolioData = [
   {
     id: 18,
     title: "Dhruv Rathee Style Documentary",
-    category: "Other",
+    category: "Documentary",
     image: "/images/thumbnails/dhruv-rathee.png",
   },
   {
     id: 19,
     title: "Uncovering The Epstein Files",
-    category: "Other",
+    category: "Documentary",
     image: "/images/thumbnails/epstein-files.png",
   },
   {
     id: 20,
     title: "Political Landscape Review",
-    category: "Other",
+    category: "Documentary",
     image: "/images/thumbnails/modi.png",
+  },
+  
+  {
+    id: 22,
+    title: "The Cult Leader ",
+    category: "Documentary",
+    image: "/images/thumbnails/Cult-leader.png",
+  },
+  {
+    id: 23,
+    title: "Minecraft BedWare",
+    category: "Gaming",
+    image: "/images/thumbnails/minecraft-bedware.png",
+  },
+  {
+    id: 24,
+    title: "Fremon night vlog",
+    category: "Vlogs",
+    image: "/images/thumbnails/Fremon-vlog.png",
+  },
+  {
+    id: 25,
+    title: "Roblox Steal",
+    category: "Gaming",
+    image: "/images/thumbnails/roblox-brainrot-steal.png",
+  },
+  {
+    id: 26,
+    title: "Trading",
+    category: "Finance",
+    image: "/images/thumbnails/Trading.png",
+  },
+  {
+    id: 27,
+    title: "Plane B29",
+    category: "Other",
+    image: "/images/thumbnails/Plane B-29 watermark.png",
+  },
+  {
+    id: 28,
+    title: "Freelancing",
+    category: "Other",
+    image: "/images/thumbnails/freelancing thumbnail.png",
   },
 ];
 
-export const categories = ["All", "Gaming", "Tech", "Finance", "Vlogs", "Other"];
+export const categories = ["All", "Gaming", "Tech", "Finance", "Vlogs", "Documentary", "Other"];
 
 export default portfolioData;

@@ -8,7 +8,7 @@ export default function FeaturedCarousel() {
   const [isPaused, setIsPaused] = useState(false);
   const trackRef = useRef(null);
   const touchStartX = useRef(0);
-  const featured = portfolioData.slice(0, 8);
+  const featured = portfolioData.slice(0, 9);
   const slideWidth = 420; // 400 + 20 gap
 
   const totalSlides = featured.length;
